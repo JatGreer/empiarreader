@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "empiarreader"
+name = "empiarreader-fork-debug"
 version = "0.0.1"
 description = "EMPIARReader provides utilities to lazily load data from EMPIAR into a machine-learning-friendly dataset format or to locally download the files."
 authors = ["mooniean <bcostagomes@turing.ac.uk>", "ots22 <ostrickson@turing.ac.uk>"]
@@ -43,6 +43,6 @@ empiar = "empiarreader:EmpiarCatalog"
 empiarreader = "empiarreader.cli:main"
 
 [tool.poetry.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://github.com/JatGreer/empiarreader"
+"Bug Tracker" = "https://github.com/JatGreer/empiarreader/issues"
 
