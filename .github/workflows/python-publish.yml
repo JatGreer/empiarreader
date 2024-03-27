@@ -36,7 +36,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: production
-      url: https://pypi.org/p/empiarreader
+      url: https://pypi.org/p/empiarreader-fork-debug
     permissions:
       id-token: write
 
@@ -97,7 +97,7 @@ jobs:
 
     environment:
       name: testing
-      url: https://test.pypi.org/p/empiarreader
+      url: https://test.pypi.org/p/empiarreader-fork-debug
 
     permissions:
       id-token: write
